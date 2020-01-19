@@ -1,6 +1,6 @@
 Name:		xdg-user-dirs-gtk
 Version:	0.10
-Release:	2%{?dist}
+Release:	4%{?dist}
 Summary:	Gnome integration of special directories
 
 Group:		User Interface/Desktops
@@ -47,6 +47,12 @@ desktop-file-validate $RPM_BUILD_ROOT%{_sysconfdir}/xdg/autostart/user-dirs-upda
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.10-4
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.10-3
+- Mass rebuild 2013-12-27
+
 * Thu May 30 2013 Matthias Clasen <mclasen@redhat.com> - 0.10-2
 - Make 'Don't ask again' checkbox work properly (#968955)
 
